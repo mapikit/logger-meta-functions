@@ -1,0 +1,44 @@
+{
+  "name": "logger-meta-functions",
+  "description": "",
+  "version": "1.0.0",
+  "functionsDefinitions": [
+    {
+      "functionName": "log",
+      "description": "normal level log",
+      "inputs": {
+        "message": { "type": "string", "required": true },
+        "data": { "type": "any", "required": false }
+      },
+      "outputs": {}
+    },
+    {
+      "functionName": "infoLog",
+      "description": "info level log",
+      "inputs": {
+        "message": { "type": "string", "required": true },
+        "data": { "type": "any", "required": false }
+      },
+      "outputs": {}
+    },
+    {
+      "functionName": "warnLog",
+      "description": "warn level log",
+      "inputs": {
+        "message": { "type": "string", "required": true },
+        "data": { "type": "any", "required": false }
+      },
+      "outputs": {}
+    },
+    {
+      "functionName": "errorLog",
+      "description": "normal level log",
+      "inputs": {
+        "message": { "type": "string", "required": true },
+        "data": { "type": "any", "required": false }
+      },
+      "outputs": {}
+    }
+  ],
+  "entrypoint": "./dist/index.js"
+}
