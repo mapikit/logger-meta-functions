@@ -6,38 +6,38 @@
     {
       "functionName": "log",
       "description": "normal level log",
-      "inputs": {
+      "inputParameters": {
         "message": { "type": "string", "required": true },
         "data": { "type": "any", "required": false }
       },
-      "outputs": {}
+      "outputData": {}
     },
     {
       "functionName": "infoLog",
       "description": "info level log",
-      "inputs": {
+      "inputParameters": {
         "message": { "type": "string", "required": true },
         "data": { "type": "any", "required": false }
       },
-      "outputs": {}
+      "outputData": {}
     },
     {
       "functionName": "warnLog",
       "description": "warn level log",
-      "inputs": {
+      "inputParameters": {
         "message": { "type": "string", "required": true },
         "data": { "type": "any", "required": false }
       },
-      "outputs": {}
+      "outputData": {}
     },
     {
       "functionName": "errorLog",
       "description": "normal level log",
-      "inputs": {
+      "inputParameters": {
         "message": { "type": "string", "required": true },
         "data": { "type": "any", "required": false }
       },
-      "outputs": {}
+      "outputData": {}
     }
   ],
   "entrypoint": "./dist/index.js"
