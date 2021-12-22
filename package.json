@@ -1,6 +1,6 @@
 {
   "name": "logger-meta-functions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A log suite to use in your BOps",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -1,43 +1,43 @@
 {
   "name": "logger-meta-functions",
-  "description": "",
+  "description": "A log Suite to use with Meta-System",
   "version": "1.0.0",
   "functionsDefinitions": [
     {
       "functionName": "log",
       "description": "normal level log",
-      "inputParameters": {
+      "input": {
         "message": { "type": "string", "required": true },
         "data": { "type": "any", "required": false }
       },
-      "outputData": {}
+      "output": {}
     },
     {
       "functionName": "infoLog",
       "description": "info level log",
-      "inputParameters": {
+      "input": {
         "message": { "type": "string", "required": true },
         "data": { "type": "any", "required": false }
       },
-      "outputData": {}
+      "output": {}
     },
     {
       "functionName": "warnLog",
       "description": "warn level log",
-      "inputParameters": {
+      "input": {
         "message": { "type": "string", "required": true },
         "data": { "type": "any", "required": false }
       },
-      "outputData": {}
+      "output": {}
     },
     {
       "functionName": "errorLog",
       "description": "normal level log",
-      "inputParameters": {
+      "input": {
         "message": { "type": "string", "required": true },
         "data": { "type": "any", "required": false }
       },
-      "outputData": {}
+      "output": {}
     }
   ],
   "entrypoint": "./dist/index.js"
