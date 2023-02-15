@@ -1,7 +1,6 @@
 {
   "name": "logger-meta-functions",
   "description": "A log Suite to use with Meta-System",
-  "version": "1.0.0",
   "functionsDefinitions": [
     {
       "functionName": "log",

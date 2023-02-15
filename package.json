@@ -1,10 +1,11 @@
 {
   "name": "logger-meta-functions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A log suite to use in your BOps",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
+    "build": "npx tsc -p tsconfig.json"
   },
   "repository": {
     "type": "git",
